@@ -27,35 +27,15 @@
     "url": "https://github.com/RavenCommunity/kawpow-stratum-pool/issues"
   },
   "bundleDependencies": {
-  "logger": "0.0.1"
+    "logger": "0.0.1"
   },
-  "contributors": [
-    {
-      "name": "Jeremy Anderson"
-    },
-    {
-      "name": "Matthew Little"
-    },
-    {
-      "name": "vekexasia"
-    },
-    {
-      "name": "TheSeven"
-    },
-    {
-      "name": "fellu"
-    },
-    {
-      "name": "anduck"
-    }
-  ],
   "dependencies": {
     "async": "*",
     "base58-native": "*",
     "big-integer": "^1.6.48",
-    "bignum": "^0.13.1",
-    "bitcoinjs-lib": "git+https://github.com/bitcoinjs/bitcoinjs-lib.git",
-    "merkle-bitcoin": "git+https://github.com/Nur1Labs/merkle-bitcoin.git",
+    "bignum": "git+https://github.com/magicminingpool/ub-no-big.git",
+    "bitcoinjs-lib": "git+https://github.com/magicminingpool/ub-bitcoinjs-lib.git",
+    "merkle-bitcoin": "git+https://github.com/magicminingpool/ub-merkle-bitcoin.git",
     "promise": "*",
     "sha3": "*"
   },
@@ -75,7 +55,6 @@
     "Ravencoin",
     "kawpow"
   ],
-  "license": "GPL-2.0",
   "main": "lib/index.js",
   "name": "stratum-pool",
   "repository": {
